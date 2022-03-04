@@ -47,7 +47,7 @@ AllowedIPs = ${NET}.${i}/32
   echo "[Interface]
 PrivateKey = $CLT_PRIV_KEY
 Address = ${NET}.${i}/24
-DNS = 8.8.8.8
+DNS = 77.88.8.8
 
 [Peer]
 PublicKey = $SRV_PUB_KEY
